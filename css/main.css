@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 34px;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.wrapper {
+	max-width: 977px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.navigation-list {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 25px 0;
+	font-size: 24px;
+}
+
+.nav-item-link {
+	color: black;
+}
+
+.my-name-wr {
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 50px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: auto 0;
+}
+
+.my-self-photo {
+	border-radius: 500px;
+}
+
+.social-media {
+	display: flex;
+	margin: auto 0;
+}
+
+.social-list {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.about-me {
+	/* background-color: rgb(205, 203, 203); */
+	background-color: #F6F6F6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-me-title {
+	margin-bottom: 50px;
+}
+
+.about-me-text,
+.about-me-item {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.skills {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.skills-title {
+	margin-bottom: 50px;
+}
+
+.skills-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.stars-list {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.skills-item {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.skills-item-text {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 17px;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+
+.languages {
+	background-color: #F6F6F6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.languages-title {
+	margin: 0 0 50px 0;
+}
+
+.languages-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+.languages-texttext {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 17px;
+	margin: 0 0 40px 0;
+}
+
+.languages-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.languages-item {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer-title {
+	margin-bottom: 50px;
+}
+
+.table-lang {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 13px 30px;
+	border-radius: 50px;
+	width: 180px;
+	height: 42px;
+	margin-left: 390px;
+}
+
+.footer-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
